@@ -5,7 +5,6 @@ date: 2021-02-21
 [typescript]: https://www.typescriptlang.org/
 [typeAnnotations]: https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html#type-annotations
 # TypeScript Type Annotations
-## Information
 In [TypeScript][typescript], [type annotations][typeAnnotations] allow you to force anything's data type to be what you choose. If its data type is *not* the one 
 you specify, the console will throw an error.
 ## Example
