@@ -42,3 +42,4 @@ If you don't contact other devs about the nullish coalescing, they might get con
 ### Cons
 
 - Difficult to be cognizant of without a comment or contact
+- Not supported in all browsers
