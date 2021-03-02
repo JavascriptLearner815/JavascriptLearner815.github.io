@@ -22,6 +22,40 @@ function calculatePrice(price, taxes, description) {
 
 If you passed 0 because there were no taxes using the OR operator instead of the nullish coalescing operator, it would assume you forgot to pass the taxes although you meant there were no taxes and execute with that default value.
 
+## Secret
+
+Nullish coalescing is actually a shorthand for a longer evaluation. Say you have this code:
+
+```javascript
+function hai(xxx) {
+  xxx = xxx ?? "yyy"
+  console.log(xxx)
+  bai()
+}
+function bai(yyy) {
+  yyy = yyy ?? "xxx"
+  console.log(yyy)
+}
+hai()
+```
+
+That code is a shorthand for this other code:
+
+```javascript
+function hai(xxx) {
+  xxx = xxx != null ? xxx : "yyy"
+  console.log(xxx)
+  bai()
+}
+function bai(yyy) {
+  yyy = yyy != null ? yyy : "xxx"
+  console.log(yyy)
+}
+hai()
+```
+
+Notice the difference? See if you can spot the obvious aberration between the two zany codes.
+
 ## Caveats
 
 ### Other Devs
