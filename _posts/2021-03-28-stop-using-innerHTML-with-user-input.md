@@ -13,7 +13,6 @@ Let's say you have an input-based navigation system like so:
 `index.html`:
 
 ```html
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -46,13 +45,11 @@ Let's say you have an input-based navigation system like so:
     </footer>
   </body>
 </html>
-
 ```
 
 `main.css`:
 
 ```css
-
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -62,16 +59,13 @@ body {
 }
 
 /* ... */
-
 ```
 
 `script.js`:
 
 ```javascript
-
 // ...
 // <span>.innerHTML = <requestedLocation>;
-
 ```
 
 Now, this would be great, right? ... Not so much.
@@ -79,9 +73,7 @@ Now, this would be great, right? ... Not so much.
 ***If a malicious person wanted to execute scripts messing with databases, importing scripts, etc., they would type something like this:***
 
 ```html
-
 <script>function goodbyeBob(){/*...*/}</script><img src onerror="goodbyeBob()"/>
-
 ```
 
 And, since `innerHTML` allows HTML, all of that malicious JavaScript code would get executed heartily.
