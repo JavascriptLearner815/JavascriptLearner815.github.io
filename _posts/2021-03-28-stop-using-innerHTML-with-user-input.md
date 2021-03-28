@@ -1,5 +1,5 @@
 ---
-title: "Stop Using `InnerHTML` with User Input"
+title: "Stop Using InnerHTML with User Input"
 date: 2021-03-28
 ---
 # Stop Using `InnerHTML` with User Input
