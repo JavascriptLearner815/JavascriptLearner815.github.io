@@ -7,24 +7,19 @@ date: 2021-02-21
 ### Changing Prototypes of Built-in Objects
 You may have made a function on the `String` object prototype before similar to this:
 ```javascript
-
 String.prototype.reverse = (() => {
   // stuff like this.toString(), etc.
 });
-
 ```
 This is bad practice, however. You should instead use this:
 ```javascript
-
 function reverse(string) {
   // stuff like string.toString(), etc.
 }
-
 ```
 ### Useless Else-If
 Let's say you had a function like this:
 ```javascript
-
 function isZero(number) {
   if (number === 0) {
     return true;
@@ -32,7 +27,6 @@ function isZero(number) {
     return false;
   }
 }
-
 ```
 There's a bad practice here. Can you spot it?
 
@@ -40,7 +34,6 @@ If you said that the else-if can be changed into an else, you'd be correct! If t
 
 Our function would now be:
 ```javascript
-
 function isZero(number) {
   if (number === 0) {
     return true;
@@ -48,5 +41,4 @@ function isZero(number) {
     return false;
   }
 }
-
 ```
