@@ -70,8 +70,9 @@ If you don't contact other devs about the nullish coalescing, they might get con
 
 ### Pros
 
-- Shorter way to check for null or undefined
+- Shorter way to check for null or undefined (compact)
 - Flaunt your JavaScript knowledge
+- Less space and thus a bit less loading time
 
 ### Cons
 
