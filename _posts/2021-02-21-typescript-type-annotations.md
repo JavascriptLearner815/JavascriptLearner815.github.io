@@ -52,7 +52,7 @@ try {
     const result = remainder("Some Random Text", 123);
     console.log(`The result is ${result}.`);
 } catch {
-    console.log("Wrong data type.");
+    console.error("Wrong data type.");
 }
 ```
 Even if the data type is not the one you specify, the code will continue to execute. To handle this, you can use `typeof`:
@@ -67,6 +67,6 @@ try {
     const result = remainder("Some Random Text", 123);
     console.log(`The result is ${result}.`);
 } catch {
-    console.log("Wrong data type.");
+    console.error("Wrong data type.");
 }
 ```
