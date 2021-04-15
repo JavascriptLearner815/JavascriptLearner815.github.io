@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   My first site. I'm a nerd. Also, please, PLEASE tell me you're not a dumb idiot that can't socially interact!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   
 # favicon
-#site_favicon: favicon.ico
+site_favicon: favicon.ico
 
 # social links
 # DO NOT include the @ character, or else the build will fail!
