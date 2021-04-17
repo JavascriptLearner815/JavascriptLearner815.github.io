@@ -8,17 +8,17 @@ date: 2021-04-16
 My blog isn't really that active, so you may want to start your own, more active one! This post can help you with that, guiding you based on my own personal setup, in order to create a blog with ease! 
 
 _If you prefer to learn visually, check out the video version of this article._ 
-<!--- [![TITLE](https://adrotog-yt-embed.herokuapp.com/embed?v=ID)](https://www.youtube.com/watch?v=ID "TITLE") ---> (deleted due to recorder bug, see final result at https://github.com/Example360/blog/) 
+<!--- [![TITLE](https://adrotog-yt-embed.herokuapp.com/embed?v=ID)](https://www.youtube.com/watch?v=ID "TITLE") ---> (deleted due to recorder bug, see final result at <https://github.com/Example360/blog/>) 
 
 ## Creating the Barebones Blog 
 
 Sadly, you will be alone for this step, and, as of making the video, I didn't know what the updated version of the course was going to be. This post will be updated accordingly if improvising happens. 
 
-In order to create your blog, you need to finish the GitHub Learning Lab course for making one. After you're done, you can come back and really start working on your blog! 
+In order to create your blog, you need to finish [the GitHub Learning Lab course for making one](https://lab.github.com/githubtraining/github-pages). After you're done, you can come back and really start working on your blog! 
 
 ## I Like to Move It, Move It! 
 
-The most important first step to creating your blog is by changing the name to "blog", the description to the description on the blog already, the website link to "https://your-username.github.io/blog/", and the tags to "blog" and nothing else. You can also add topics that you plan to focus on with your blog if you want, as well. 
+The most important first step to creating your blog is by changing the name to "blog", the description to the description on the blog already, the website link to <https://your-username.github.io/blog/>, and the tags to "blog" and nothing else. You can also add topics that you plan to focus on with your blog if you want, as well. 
 
 ## Don’t Look Like a Fool 
 
@@ -66,7 +66,7 @@ Then, just type in this code:
 
 #### 1. Font 
 
-If you've ever seen WebDevSimplified's blog, you've probably noticed the font change. That's exactly what I've done with this blog, too, and this `<head>` element is the trick! This is the magical code that's done this: 
+If you've ever seen [WebDevSimplified's blog](https://blog.webdevsimplified.com), you've probably noticed the font change. That's exactly what I've done with this blog, too, and this `<head>` element is the trick! This is the magical code that's done this: 
 
 ```html 
 <!-- Font -->
@@ -79,28 +79,28 @@ If you've ever seen WebDevSimplified's blog, you've probably noticed the font ch
   </style>
 ``` 
 
-This loads Google Fonts, then imports the Merriweather font with this mid-dark boldness. Finally, the styles simply set the global font to that Merriweather one, and makes it fall back to serif if it cannot be used for some reason. 
+This loads [Google Fonts](https://fonts.google.com), then imports the Merriweather font with this mid-dark boldness. Finally, the styles simply set the global font to that Merriweather one, and makes it fall back to serif if it cannot be used for some reason. 
 
 #### 2. Favicon 
 
-If you've been taking a look at your blog, the "favicon" that is usually right next to it is essentially gone, displaying an ugly """Earth""" favicon. Heck, for this blog, I've used the favicon that I already used for my "classroom" website! This is the magical code that’s done this: 
+If you've been taking a look at your blog, the "favicon" that is usually right next to it is essentially gone, displaying an ugly """Earth""" favicon. Heck, for this blog, I've used the favicon that I already used for [my "classroom" website](https://javascriptlearner815.github.io/speedothreesixty-classroom/)! This is the magical code that’s done this: 
 
 ```html 
 <!-- Favicon head tag -->
 <link rel="apple-touch-icon" sizes="180x180" href="https://your-username.github.io/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://your-username.github.io/blog/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://your-username.github.io/blog/favicon-16x16.png">
-<link rel="manifest" href="https://[your username].github.io/blog/site.webmanifest">
-<link rel="mask-icon" href="https://[your username].github.io/blog/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="manifest" href="https://your-username.github.io/blog/site.webmanifest">
+<link rel="mask-icon" href="https://your-username.github.io/blog/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 ``` 
 
-This loads your blog's favicon, which you… didn't upload?!? 
+This loads your blog's favicon, which you... didn't upload?!? 
 
 ##### Uploading the Favicon 
 
-After you save this new file, visit this website. Press "Demo with a random image", and scroll all the way down to press "Generate your Favicons and HTML code". Download your ZIP file, then unzip it and upload each file inside of it one-by-one. I actually have used another generator for this blog, but yours can be different than mine, finally! The favicon should now take effect shortly. 
+After you save this new file, [visit this website](https://realfavicongenerator.com). Press "Demo with a random image", and scroll all the way down to press "Generate your Favicons and HTML code". Download your ZIP file, then unzip it and upload each file inside of it one-by-one. I actually have used another generator for this blog, but yours can be different than mine, finally! The favicon should now take effect shortly. 
 
 ### Update your README.md File 
 
@@ -173,4 +173,4 @@ https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-re
 
 ## Done! 
 
-And that's all you need to know in order to make a blog with GitHub Pages! Hope to see you again soon, but for now: Farewell. 
+And that's all you need to know in order to make a blog with [GitHub Pages](https://pages.github.com)! Hope to see you again soon, but for now: Farewell. 
