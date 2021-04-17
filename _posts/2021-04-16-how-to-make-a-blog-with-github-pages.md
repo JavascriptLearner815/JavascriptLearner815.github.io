@@ -8,7 +8,7 @@ date: 2021-04-16
 My blog isn't really that active, so you may want to start your own, more active one! This post can help you with that, guiding you based on my own personal setup, in order to create a blog with ease! 
 
 _If you prefer to learn visually, check out the video version of this article._ 
-<!--- [![TITLE](https://adrotog-yt-embed.herokuapp.com/embed?v=ID)](https://www.youtube.com/watch?v=ID "TITLE") ---> (deleted due to recorder bug, see final result at <https://github.com/Example360/blog/>) 
+<!--- [![TITLE](https://adrotog-yt-embed.herokuapp.com/embed?v=ID)](https://www.youtube.com/watch?v=ID "TITLE") ---> (deleted due to recorder bug, see final result at [https://github.com/Example360/blog/](https://github.com/Example360/blog/)) 
 
 ## Creating the Barebones Blog 
 
@@ -18,7 +18,7 @@ In order to create your blog, you need to finish [the GitHub Learning Lab course
 
 ## I Like to Move It, Move It! 
 
-The most important first step to creating your blog is by changing the name to "blog", the description to the description on the blog already, the website link to <https://your-username.github.io/blog/>, and the tags to "blog" and nothing else. You can also add topics that you plan to focus on with your blog if you want, as well. 
+The most important first step to creating your blog is by changing the name to "blog", the description to the description on the blog already, the website link to "https://your-username.github.io/blog/", and the tags to "blog" and nothing else. You can also add topics that you plan to focus on with your blog if you want, as well. 
 
 ## Don’t Look Like a Fool 
 
