@@ -8,6 +8,7 @@ date: 2021-04-16
 My blog isn't really that active, so you may want to start your own, more active one! This post can help you with that, guiding you based on my own personal setup, in order to create a blog with ease! 
 
 _If you prefer to learn visually, check out the video version of this article._ 
+<br/> 
 <!--- [![TITLE](https://adrotog-yt-embed.herokuapp.com/embed?v=ID)](https://www.youtube.com/watch?v=ID "TITLE") ---> [deleted due to recorder bug, see final result](https://github.com/Example360/blog) 
 
 ## Creating the Barebones Blog 
