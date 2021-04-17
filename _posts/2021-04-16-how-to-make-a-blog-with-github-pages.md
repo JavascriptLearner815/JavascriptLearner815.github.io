@@ -7,7 +7,7 @@ date: 2021-04-16
 
 My blog isn’t really that active, so you may want to start your own, more active one! This post can help you with that, guiding you based on my own personal setup, in order to create a blog with ease! 
 
-If you prefer to learn visually, check out the video version of this article. 
+_If you prefer to learn visually, check out the video version of this article._ 
 <!--- [![TITLE](https://adrotog-yt-embed.herokuapp.com/embed?v=ID)](https://www.youtube.com/watch?v=ID "TITLE") ---> (deleted due to recorder bug, see final result at https://github.com/Example360/blog/) 
 
 ## Creating the Barebones Blog 
@@ -18,7 +18,7 @@ In order to create your blog, you need to finish the GitHub Learning Lab course 
 
 ## I Like to Move It, Move It! 
 
-The most important first step to creating your blog is by changing the name to “blog”, the description to the description on the blog already, the website link to “https://<your username>.github.io/blog/”, and the tags to “blog” and nothing else. You can also add topics that you plan to focus on with your blog if you want, as well. 
+The most important first step to creating your blog is by changing the name to “blog”, the description to the description on the blog already, the website link to “https://[your username].github.io/blog/”, and the tags to “blog” and nothing else. You can also add topics that you plan to focus on with your blog if you want, as well. 
 
 ## Don’t Look Like a Fool 
 
@@ -37,17 +37,17 @@ Then, just type in this code:
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="<blog description>">
-  <link rel="stylesheet" href="{{ "https://<your username>.github.io/blog/assets/main.css" | relative_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "https://<your username>.github.io/blog/feed.xml" | relative_url }}">
-  <title><blog name></title>
+  <meta name="description" content="[blog description]">
+  <link rel="stylesheet" href="{{ "https://[your username].github.io/blog/assets/main.css" | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "https://[your username].github.io/blog/feed.xml" | relative_url }}">
+  <title>[blog name]</title>
 
 <!-- Favicon head tag -->
-<link rel="apple-touch-icon" sizes="180x180" href="https://<your username>.github.io/blog/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://<your username>.github.io/blog/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://<your username>.github.io/blog/favicon-16x16.png">
-<link rel="manifest" href="https://<your username>.github.io/blog/site.webmanifest">
-<link rel="mask-icon" href="https://<your username>.github.io/blog/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="apple-touch-icon" sizes="180x180" href="https://[your username].github.io/blog/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://[your username].github.io/blog/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://[your username].github.io/blog/favicon-16x16.png">
+<link rel="manifest" href="https://[your username].github.io/blog/site.webmanifest">
+<link rel="mask-icon" href="https://[your username].github.io/blog/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
@@ -87,11 +87,11 @@ If you’ve been taking a look at your blog, the “favicon” that is usually r
 
 ```html 
 <!-- Favicon head tag -->
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="apple-touch-icon" sizes="180x180" href="https://[your username].github.io/blog/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://[your username].github.io/blog/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://[your username].github.io/blog/favicon-16x16.png">
+<link rel="manifest" href="https://[your username].github.io/blog/site.webmanifest">
+<link rel="mask-icon" href="https://[your username].github.io/blog/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 ``` 
@@ -113,12 +113,12 @@ The inane text that the Learning Lab bot created for you needs to go. Comment ou
 Now, type under everything you commented out (still keeping the copyright notice at the bottom) with this: 
 
 ```markdown 
-# <blog name> 
-<blog description> 
+# [blog name] 
+[blog description] 
 
 ## About 
 
-<about blog> 
+[about blog] 
 ``` 
 
 --- 
@@ -135,7 +135,7 @@ This is really simple. Just create these two files:
 
 ```markdown 
 # Code Owner For 42 
-* @<your username> 
+* @[your username] 
 ``` 
 
 `.github/PULL_REQUEST_TEMPLATE/content_update.md`: 
