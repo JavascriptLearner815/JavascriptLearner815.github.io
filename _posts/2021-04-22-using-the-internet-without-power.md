@@ -57,4 +57,8 @@ Go ahead! Do whatever you want on the device you want to use now.
 
 ## Conclusion
 
-When the power goes out all hope may be lost but if you make a smart move the pang can be avoided. Have a great day!
+When the power goes out all hope may be lost but if you make a smart move the pang can be avoided.
+
+If you have another device (it could even be one of the devices already used here), you may even be able to charge the device you want to use while IT is charging the device to give you Internet! Just use these steps again, and the potential is endless!
+
+Have a great day!
