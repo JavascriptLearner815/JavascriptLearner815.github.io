@@ -7,6 +7,10 @@ date: 2021-04-22
 
 As I'm writing this article, I currently have no power. "How?" you may ask, and that is an excellent question.
 
+The router is off right now, and I don't have Mobile Data available on this device. That's a huge hint.
+
+Also, if the device you want to use has Mobile Data available, you can just hook up the batteries as I'll explain in the steps below and do nothing else but connect to that Mobile Data straight from that device!
+
 Imagine you're going to school, ready to chat on Discord with your best friend. When you get home, your dad tells you that the power went out. Same for me! Here's how to cope with it, and have fun with your best friend.
 
 ## Items
