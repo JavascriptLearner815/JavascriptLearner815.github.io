@@ -13,4 +13,4 @@ Discord: SpeedoThreeSixty#3179
 YouTube: <https://www.youtube.com/channel/UC6spikDcAKWABZqw7nSLNKw>
 Hypixel Forums: <https://hypixel.net/members/worldgrandmaster.3520538/>
 
-[Simplify Your JavaScript Code >][next]
+`continue` | [Simplify Your JavaScript Code >][next]
