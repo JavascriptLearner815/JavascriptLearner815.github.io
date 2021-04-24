@@ -2,6 +2,8 @@
 title: "TypeScript Type Annotations"
 date: 2021-02-21
 ---
+[prev]: https://javascriptlearner815.github.io/blog/2021/02/21/simplify-your-js-code.html
+[next]: https://javascriptlearner815.github.io/blog/2021/02/27/javascript-nullish-coalescing.html
 [typescript]: https://www.typescriptlang.org/
 [typeAnnotations]: https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html#type-annotations
 # TypeScript Type Annotations
@@ -70,3 +72,5 @@ try {
     console.error("Wrong data type.");
 }
 ```
+
+[< Simplify Your JavaScript Code][prev] | [JavaScript Nullish Coalescing >][next]
