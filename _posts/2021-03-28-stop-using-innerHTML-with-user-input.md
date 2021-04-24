@@ -2,6 +2,8 @@
 title: "Stop Using InnerHTML with User Input"
 date: 2021-03-28
 ---
+[prev]: https://javascriptlearner815.github.io/blog/2021/03/19/using-the-a-minecraft-struggle-api.html
+[next]: https://javascriptlearner815.github.io/blog/2021/04/02/remembering-morse-code.html
 # Stop Using `InnerHTML` with User Input
 
 ## Why?
@@ -81,3 +83,5 @@ And, since `innerHTML` allows HTML, all of that malicious JavaScript code would 
 ## How To Fix
 
 Change all references to `innerHTML` from user-input to `innerText`. If you want SOME HTML features to be able to be entered by the user and executed (preferrably filtered), use `.replace()`, `if ... else`, guard clauses, etc.
+
+[< Using the A Minecraft Struggle API][prev] | [Remembering Morse Code >][next]
