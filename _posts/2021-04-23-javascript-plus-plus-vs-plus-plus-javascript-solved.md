@@ -3,6 +3,8 @@ title: "(JavaScript++ && ++JavaScript) && console.log('Solved')"
 date: 2021-04-23
 ---
 
+[WDS]: https://www.youtube.com/c/WebDevSimplified/videos
+
 # (JavaScript++ && ++JavaScript) && console.log('Solved')
 
 Here's some JavaScript code for ya:
@@ -45,7 +47,7 @@ f(2) // 0
 
 In this article, I will show you why this happens, and the differences between `x++` and `++x`. (It's a very important topic in JavaScript, so listen up!)
 
-(This code was made by WebDevSimplified for _Who Wants To Be A Megabit_.)
+(This code was made by [WebDevSimplified][WDS] for _Who Wants To Be A Megabit_.)
 
 ## Definitions
 
