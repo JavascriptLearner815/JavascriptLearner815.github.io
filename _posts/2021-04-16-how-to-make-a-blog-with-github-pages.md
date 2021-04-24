@@ -3,6 +3,9 @@ title: "How to Make a Blog with GitHub Pages"
 date: 2021-04-16
 ---
 
+[prev]: https://javascriptlearner815.github.io/blog/2021/04/02/remembering-morse-code.html
+[next]: https://javascriptlearner815.github.io/blog/2021/04/22/using-the-internet-without-power.html
+
 # How to Make a Blog with GitHub Pages 
 
 My blog isn't really that active, so you may want to start your own, more active one! This post can help you with that, guiding you based on my own personal setup, in order to create a blog with ease! 
@@ -175,3 +178,5 @@ https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-re
 ## Done! 
 
 And that's all you need to know in order to make a blog with [GitHub Pages](https://pages.github.com)! Hope to see you again soon, but for now: Farewell. 
+
+[< Remembering Morse Code][prev] | [Using the Internet without Power >][next] 
