@@ -3,6 +3,8 @@ title: "false && console.log('JavaScript Short-Circuiting')"
 date: 2021-04-24
 ---
 
+[prev]: https://javascriptlearner815.github.io/blog/2021/04/23/javascript-plus-plus-vs-plus-plus-javascript-solved.html
+
 # `false && console.log('JavaScript Short-Circuiting')`
 
 If I gave you this code:
@@ -208,3 +210,5 @@ cond&&console.log("Hi")
 Again, this is a very simple and necessary thing to have on your résumé.
 
 *[If you have any additional ideas for blog posts, please email me at deanlovesmargie@gmail.com.](mailto:deanlovesmargie@gmail.com)* `&&` - with that out of the way - `console.log("farewell, and have a great day!")`
+
+[< `(JavaScript++ && ++JavaScript) && console.log('Solved')`][prev]
