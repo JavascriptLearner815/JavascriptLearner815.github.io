@@ -3,6 +3,8 @@ title: "(JavaScript++ && ++JavaScript) && console.log('Solved')"
 date: 2021-04-23
 ---
 
+[prev]: https://javascriptlearner815.github.io/blog/2021/04/22/using-the-internet-without-power.html
+[next]: https://javascriptlearner815.github.io/blog/2021/04/24/javascript-short-circuiting.html
 [WDS]: https://www.youtube.com/c/WebDevSimplified/videos
 
 # `(JavaScript++ && ++JavaScript) && console.log('Solved')`
@@ -156,7 +158,7 @@ This does TWO things.
 
 First, we set `x` to its current value, `3`, minus `3`, which is `0`.
 
-Second, we append an `&&` after that and increment `x` with `++x`. This would set `x` to `1` now, however, when we set `x` to `0`, that assignment returned the new value of `x`, `0`, which is a falsy value. Thus, the `&&` "short-circuits" and doesn't run. (I may write another article about this soon, possibly tomorrow.)
+Second, we append an `&&` after that and increment `x` with `++x`. This would set `x` to `1` now, however, when we set `x` to `0`, that assignment returned the new value of `x`, `0`, which is a falsy value. Thus, the `&&` "short-circuits" and doesn't run. [(I may write another article about this soon, possibly tomorrow.)](https://javascriptlearner815.github.io/blog/2021/04/24/javascript-short-circuiting.html)
 
 So, the value of `x` is now `0`.
 
@@ -183,3 +185,5 @@ However, by definition, `return` returns from the function and makes its value e
 `x++` vs. `++x` is a very common topic covered pretty much anywhere, but is crucial for beginners getting stuck trying to learn intermediate developers' code containing this kind of amazing, vital knowledge. If you ever try to apply for a Developer job in JavaScript and don't know the difference between `x++` and `++x`, that's going to be an immediate red flag to them as this is very simple and necessary knowledge to need on your résumé.
 
 Thanks for reading (and blogging with GitHub Pages et. al.), and have a great day!
+
+[< Using the Internet without Power][prev] | [`false && console.log('JavaScript Short-Circuiting')` >][next]
