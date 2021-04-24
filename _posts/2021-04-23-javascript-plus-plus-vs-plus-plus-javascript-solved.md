@@ -70,8 +70,8 @@ Let's say you were making a function that increments `x` and sets `y` to the sam
 Let's try to make this with `x++`:
 
 ```javascript
-let x = 360;
-let y;
+let x = 360
+let y
 
 function incrementXAndSetToY(x, y) {
   y = x++
@@ -96,8 +96,8 @@ This is because, by definition, `x++` returns the value of `x` _before_ incremen
 Now, we could write the function like this:
 
 ```javascript
-let x = 360;
-let y;
+let x = 360
+let y
 
 function incrementXAndSetToY(x, y) {
   x++
