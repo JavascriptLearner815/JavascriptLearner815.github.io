@@ -5,7 +5,7 @@ date: 2021-04-23
 
 [WDS]: https://www.youtube.com/c/WebDevSimplified/videos
 
-# (JavaScript++ && ++JavaScript) && console.log('Solved')
+# `(JavaScript++ && ++JavaScript) && console.log('Solved')`
 
 Here's some JavaScript code for ya:
 
