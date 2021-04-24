@@ -2,6 +2,10 @@
 title: "Simplify Your JavaScript Code"
 date: 2021-02-21
 ---
+
+[prev]: https://javascriptlearner815.github.io/blog/2020/07/31/my-first-blog-post.html
+[next]: https://javascriptlearner815.github.io/blog/2021/02/21/typescript-type-annotations.html
+
 # Simplify Your JavaScript Code
 ## Bad Practices
 ### Changing Prototypes of Built-in Objects
@@ -42,3 +46,5 @@ function isZero(number) {
   }
 }
 ```
+
+[< Welcome to my blog!][prev] | [TypeScript Type Annotations >][next]
