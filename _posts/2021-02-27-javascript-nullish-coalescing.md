@@ -3,6 +3,9 @@ title: "JavaScript Nullish Coalescing"
 date: 2021-02-27
 ---
 
+[prev]: https://javascriptlearner815.github.io/blog/2021/02/21/typescript-type-annotations.html
+[next]: https://javascriptlearner815.github.io/blog/2021/03/13/guide-to-discord-part-1.html
+
 # JavaScript Nullish Coalescing
 
 Nullish coalescing is represented by `??`. It comes in place of `||`'s usage, but is a little different. Unlike `||`'s check for a false value to revert to the next value specified, `??` fallbacks to the value after it if the value before it is either equal to null or equal to undefined, nothing else.
@@ -79,3 +82,5 @@ If you don't contact other devs about the nullish coalescing, they might get con
 - Difficult to be cognizant of without a comment or contact
 - Not supported in all browsers
 - Not supported in JSFiddle
+
+[< TypeScript Type Annotations][prev] | [Guide to Discord, Pt. 1 >][next]
