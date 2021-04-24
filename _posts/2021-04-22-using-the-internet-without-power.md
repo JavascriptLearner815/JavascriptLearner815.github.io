@@ -3,6 +3,9 @@ title: "Using the Internet without Power"
 date: 2021-04-22
 ---
 
+[prev]: https://javascriptlearner815.github.io/blog/2021/04/16/how-to-make-a-blog-with-github-pages.html
+[next]: https://javascriptlearner815.github.io/blog/2021/04/23/javascript-plus-plus-vs-plus-plus-javascript-solved.html
+
 # Using the Internet without Power
 
 As I'm writing this article, I currently have no power. "How?" you may ask, and that is an excellent question.
@@ -62,3 +65,5 @@ When the power goes out all hope may be lost but if you make a smart move the pa
 If you have another device (it could even be one of the devices already used here), you may even be able to charge the device you want to use while IT is charging the device to give you Internet! Just use these steps again, and the potentials are endless!
 
 Have a great day!
+
+[< How to Make a Blog with GitHub Pages][prev] | [`(JavaScript++ && ++JavaScript) && console.log('Solved')` >][next]
