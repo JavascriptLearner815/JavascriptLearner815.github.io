@@ -3,6 +3,9 @@ title: "Remembering Morse Code"
 date: 2021-04-02
 ---
 
+[prev]: https://javascriptlearner815.github.io/blog/2021/03/28/stop-using-innerHTML-with-user-input.html
+[next]: https://javascriptlearner815.github.io/blog/2021/04/16/how-to-make-a-blog-with-github-pages.html
+
 # Remembering Morse Code
 
 ## A
@@ -180,3 +183,5 @@ Com-ma, it's a com-ma!
 ```._._._```
 
 A stop, a stop, a stop!
+
+[< Stop Using `InnerHTML` with User Input][prev] | [How to Make a Blog with GitHub Pages >][next]
