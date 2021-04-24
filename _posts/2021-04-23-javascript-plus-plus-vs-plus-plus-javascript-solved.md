@@ -112,8 +112,8 @@ incrementXAndSetToY(x, y) // Now both x and y are set to 361
 Just use `++x`:
 
 ```javascript
-let x = 360;
-let y;
+let x = 360
+let y
 
 function incrementXAndSetToY(x, y) {
   y = ++x
