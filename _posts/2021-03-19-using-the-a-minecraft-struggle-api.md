@@ -8,4 +8,4 @@ date: 2021-03-19
 
 # [Using the A Minecraft Struggle API](https://a-minecraft-struggle.fandom.com/wiki/User_blog:SpeedoThreeSixty/Using_the_A_Minecraft_Struggle_API)
 
-[< Guide to Discord, Pt. 1][prev] | [Stop Using `innerHTML` with User Input >][next]
+[< Guide to Discord, Pt. 1][prev] | [Stop Using `InnerHTML` with User Input >][next]
