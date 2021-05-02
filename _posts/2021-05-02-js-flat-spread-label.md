@@ -1,11 +1,11 @@
 ---
-title: "MyLabel: ...Array.flat(JavaScript)"
+title: "MyLabel: ...JavaScript.skills.flat(Infinity)"
 date: 2021-05-02
 ---
 
 [prev]: https://javascriptlearner815.github.io/blog/2021/05/01/javascript-basics.html
 
-# `MyLabel: ...Array.flat(JavaScript)`
+# `MyLabel: ...JavaScript.skills.flat(Infinity)`
 
 [In my previous article,][prev] I forgot some important things I was gonna explain: `Array.flat()` and `...` for arrays. And now I'll even add `MyLabel:` for your own sanity!!
 
