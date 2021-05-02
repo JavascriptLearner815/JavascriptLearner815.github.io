@@ -21,8 +21,6 @@ For ~3 months my blog has been mainly focused on JavaScript, without even consid
 [![JavaScript Basics | SpeedoThreeSixty Blog | Part 2](https://adrotog-yt-embed.herokuapp.com/embed?v=L2CnG3ziV9w)](https://www.youtube.com/watch?v=L2CnG3ziV9w "JavaScript Basics | SpeedoThreeSixty Blog | Part 2")
 <br>
 
-## BONUS: JSFIDDLE (ALSO, I COULD NOT FIND DEFAULT VALUES FOR CLASSES IN A SEARCH, PLEASE EMAIL/DM ME IF YOU FOUND IT!!!)
-
-https://jsfiddle.net/hjr6ans3/217/
+## [BONUS: JSFIDDLE (ALSO, I COULD NOT FIND DEFAULT VALUES FOR CLASSES IN A SEARCH, PLEASE EMAIL/DM ME IF YOU FOUND IT!!!)](https://jsfiddle.net/hjr6ans3/217/)
 
 [`false && console.log('JavaScript Short-Circuiting')`][prev] | `break`
