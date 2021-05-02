@@ -5,6 +5,7 @@ date: 2021-05-01
 
 [blogcreate]: https://javascriptlearner815.github.io/blog/2021/04/16/how-to-make-a-blog-with-github-pages.html
 [prev]: https://javascriptlearner815.github.io/blog/2021/04/24/javascript-short-circuiting.html
+[next]: https://javascriptlearner815.github.io/blog/2021/05/02/js-flat-spread-label.html
 
 # JavaScript Basics
 
@@ -23,4 +24,4 @@ For ~3 months my blog has been mainly focused on JavaScript, without even consid
 
 ## [BONUS: JSFIDDLE (ALSO, I COULD NOT FIND DEFAULT VALUES FOR CLASSES IN A SEARCH, PLEASE EMAIL/DM ME IF YOU FOUND IT!!!)](https://jsfiddle.net/hjr6ans3/217/)
 
-[`false && console.log('JavaScript Short-Circuiting')`][prev] | `break`
+[`false && console.log('JavaScript Short-Circuiting')`][prev] | [`MyLabel: ...JavaScript.skills.flat(Infinity)`][next]
