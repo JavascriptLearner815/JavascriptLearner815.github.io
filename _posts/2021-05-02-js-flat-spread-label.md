@@ -421,7 +421,7 @@ You'll actually get this:
 
 This is because we are only `break`ing the second loop, which means for the last element of `array1`, `3`, we'll get an icky, lingering `"HEY!"`.
 
-To fix this, we can literally LABEL the loop! (If you're like me, you've seen in your text editor "Unused label" at some point when you've messed around with your code. I was completely bemused until [WebDevSimplified][https://youtube.com/c/WebDevSimplified] saved me.)
+To fix this, we can literally LABEL the loop! (If you're like me, you've seen in your text editor "Unused label" at some point when you've messed around with your code. I was completely bemused until [WebDevSimplified](https://youtube.com/c/WebDevSimplified) saved me.)
 
 Let me show you:
 
