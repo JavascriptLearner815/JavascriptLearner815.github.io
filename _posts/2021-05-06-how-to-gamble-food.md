@@ -38,7 +38,7 @@ Take any hexagonal pencil. I chose a small one without a good eraser for myself.
 
 ### Choosing a Game
 
-Now what game will you attach? Is there a way to win? If not, make your own way! Do you have to make your gambling game a tournament due to more than 2 players playing a 2-player-only game (if so, I'll still reference the ending of that as the "game")?
+Now what game will you attach? Is there a way to win? If not, make your own way! Do you have to make your gambling game a tournament due to more than 2 players playing a 2-player-only game (if so, I'll still reference the ending of that as the "game")? What will happen if someone leaves? Or if the game is a draw?
 
 For my own gambling game, I chose chess before doing anything else in this setup.
 
