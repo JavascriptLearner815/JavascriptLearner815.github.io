@@ -458,4 +458,4 @@ These topics are not taught in commonplace and are essential for you to even loo
 
 *If you have any additional ideas for blog posts, please email me at [deanlovesmargie@gmail.com](mailto:deanlovesmargie@gmail.com).* `&&` - with that out of the way - `console.log("farewell, and have a great day!")`.
 
-[JavaScript Basics][prev] | [How to Gamble Food][next]
+[< JavaScript Basics][prev] | [How to Gamble Food >][next]
