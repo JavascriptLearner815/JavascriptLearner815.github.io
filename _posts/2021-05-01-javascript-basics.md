@@ -26,4 +26,4 @@ For ~3 months my blog has been mainly focused on JavaScript, without even consid
 
 ### [FIXED JSFIDDLE (12 PM USED TO BE 12 AM)](https://jsfiddle.net/SpeedoThreeSixty/8vqyn3k2/4/)
 
-[`false && console.log('JavaScript Short-Circuiting')`][prev] | [`MyLabel: ...JavaScript.skills.flat(Infinity)`][next]
+[< `false && console.log('JavaScript Short-Circuiting')`][prev] | [`MyLabel: ...JavaScript.skills.flat(Infinity)` >][next]
