@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Dean Alan Summer">
+    <meta name="description" content="Speedoville | Yes.">
+    <title>Speedoville</title>
+    <link rel="icon" href="https://javascriptlearner815.github.io/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <style>
+      *, *::before, *::after {
+        box-sizing: border-box;
+      }
+      body {
+        background: red;
+        font-family: "Merriweather", serif;
+        text-align: center;
+      }
+      button {
+        font-family: "Merriweather", serif;
+      }
+      h1 {
+        /* font-family: Arial, Helvetica, "Merriweather", serif; */
+        color: navy;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Speedoville</h1>
+      <p>Yes.</p>
+      <p>A work-in-progress.</p>
+    </header>
+    <hr>
+    <main>
+      <div id="app">
+        
+      </div>
+    </main>
+    <hr>
+    <footer>
+      
+    </footer>
+    
+    <script>
+      { // Prevent access in console to stuff
+      if (!storage) { console.error("Storage is not supported on your browser!") }
+      const localStorage = window.localStorage
+      class Pet {
+        constructor(type, name) {
+          this.type = type
+          this.name = name
+        }
+      }
+      class Player {
+        constructor(name) {
+          this.name = name
+        }
+        get coins() {
+          return localStorage.getItem("player_coins")
+        }
+      }
+      let chosenName = prompt("What should we call you? This data will be private.")
+      if (chosenName) { chosenName = chosenName.toString().toLowerCase() } else { chosenName = "Player" }
+      const thisPlayer = new Player(chosenName)
+      initialize()
+      function initialize() {
+        localStorage.setItem("player_coins", "0")
+      }
+      function getData(data) {
+        return localStorage.getItem(data.toString())
+      }
+      }
+    </script>
+  </body>
+</html>
