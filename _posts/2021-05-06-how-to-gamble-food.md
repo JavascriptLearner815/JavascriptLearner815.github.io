@@ -3,8 +3,8 @@ title: "How to Gamble Food"
 date: 2021-05-06
 ---
 
-[prev]: https://javascriptlearner815.github.io/blog/2021/05/02/js-flat-spread-label.html
-[next]: https://javascriptlearner815.github.io/blog/2021/05/27/my-sister-is-gay-and-its-perfectly-normal.html
+[prev]: https://javascriptlearner815.github.io/2021/05/02/js-flat-spread-label.html
+[next]: https://javascriptlearner815.github.io/2021/05/27/my-sister-is-gay-and-its-perfectly-normal.html
 
 # How to Gamble Food
 
