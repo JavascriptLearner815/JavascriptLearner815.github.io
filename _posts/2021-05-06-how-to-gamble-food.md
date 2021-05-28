@@ -73,4 +73,4 @@ At the end of the game, the losers all face the punishment in perfect unison. Th
 
 People under 18 usually want to play fun """gambling""" games with their family, but it still might be against the law to do normally/actually bad for the family in some cases. This is a friendly (and family-friendly) activity for everyone in the family!
 
-[< `MyLabel: ...JavaScript.skills.flat(Infinity)`][prev] | [My Sister Is Gay—And It's Perfectly Normal!][next]
+[< `MyLabel: ...JavaScript.skills.flat(Infinity)`][prev] | [My Sister Is Gay—And It's Perfectly Normal! >][next]
