@@ -38,6 +38,10 @@ The term "Loner" is *sometimes* an alias for asexual. It means that a person doe
 
 A more popular term for this is "Single", as long as sex is involved. Loners are single forever.
 
+## What Is Non-Binary/Binary?
+
+Being binary means you prefer being mentioned via gender-specific pronouns, e.g. he, him, his, his, ...; she, her, her, hers, .... The acro means you prefer being mentiond via neutral pronouns, e.g. they, them, their, theirs, .... My half sister and I are binary, but one of my half sister's friends is non-binary.
+
 ## -sexual
 
 Of the tertiary sexual orientations.
