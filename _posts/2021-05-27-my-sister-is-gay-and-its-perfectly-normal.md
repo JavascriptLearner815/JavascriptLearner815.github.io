@@ -32,7 +32,7 @@ The term "Bi" is an alias for bisexual. It means that a person has attraction to
 
 Bi marriage is not a specific thing—see the dates for both gay and straight marriage becoming licit in the US.
 
-## What Is A Loner?
+## What Is A(sexual, he...) Loner?
 
 The term "Loner" is *sometimes* an alias for asexual. It means that a person does not like attraction, typically sexual attraction.
 
