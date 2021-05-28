@@ -66,7 +66,7 @@ No matter your sexual orientation, you can still have a preference. Maybe you're
 
 This information about sexual orientation is important—especially for children, whom have learned only straight marriage and not gay marriage. Share this link to your friends, and tell them to share it in a chain to their other friends.
 
-A BIG thank you to my half sister, by the way, for telling me all this—including the first paragraph of this conclusion—in her literal car on a drive home! She's 18 years old, and moving in 2 weeks.
+A BIG thank you to my half sister, by the way, for telling me all this—including the first paragraph of this conclusion—in her literal car on a drive home! She's 18 years old, and moving in 2 weeks. And now, thanks to her, whenever you check back on your old, dusty Wii and check out your copy of *Just Dance 2014*, you can understand how the homosapien representing the singer of *I Kissed A Girl* could've ever been chosen to be a girl in the first place like it is now!
 
 And my final words ARE..................
 
