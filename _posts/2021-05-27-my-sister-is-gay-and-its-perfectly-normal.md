@@ -48,7 +48,7 @@ Of the tertiary sexual orientations.
 
 ## -normativity
 
-Being thought of as the personal sexual orientation and normal, default, or preferred sexual orientation for anyone else, also thinking it is the only allowed form of marriage in some cases (usually only for "straight-").
+Being thought of as the personal sexual orientation and normal, default, or preferred sexual orientation for anyone else, also thinking it is the only allowed form of marriage in some cases (usually only for "hetero-").
 
 ## -phobia
 
