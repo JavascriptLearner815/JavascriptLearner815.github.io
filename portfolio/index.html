@@ -17,7 +17,7 @@
   <body>
     <header>
       <nav class="navbar">
-        <img src="https://javascriptlearner815.github.io/favicon.ico" alt="logo" class="logo" height="30" width="30"> <h1 class="page-title brand-title" hidden>Dean - Landing Page</h1>
+        <img src="https://javascriptlearner815.github.io/favicon.ico" alt="logo" class="logo" height="30" width="30" hidden> <h1 class="page-title brand-title" hidden>Dean - Landing Page</h1>
         <a href="#" class="toggle-button">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -35,10 +35,10 @@
       <div class="site-description" hidden>The official portfolio of Dean Alan Summer, The World's Largest Nerd.</div>
       <div class="page-description" hidden>Get the best content, straight from the landing page!</div>
     </header>
-    <main>
+    <main hidden>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </main>
-    <footer>
+    <footer hidden>
       <!-- Side Links Only -->
       <div class="side-links">
         <a href="https://youtube.com/channel/UC6spikDcAKWABZqw7nSLNKw" target="_blank" class="side-link side-link-youtube">
@@ -68,8 +68,12 @@
         toggleButton.addEventListener("click", () => {
           navbarLinks.classList.toggle("active")
         })
-        $(".page-title, li").slideDown(1000, () => {
-          $(".site-description, .page-description").fadeIn(850)
+        $(".logo").fadeIn(undefined, () => {
+          $(".page-title, li").slideDown(1000, () => {
+            $(".site-description, .page-description").fadeIn(850, () => {
+              $("main, footer").fadeIn(1150)
+            })
+          })
         })
       }
     </script>
