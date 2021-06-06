@@ -1,0 +1,50 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: cspell-action
+        # You may pin to the exact commit or the version.
+        # uses: streetsidesoftware/cspell-action@823893b5be8b0195ff047346c248176991213483
+        uses: streetsidesoftware/cspell-action@v1.2.0
+        with: ${{ secrets.PAT_TOKEN }}
+          # Personal access token (PAT) used to fetch the repository commits. The PAT is configured with the local git config, which enables your scripts to run authenticated git commands. The post-job step removes the PAT. We recommend using a service account with the least permissions necessary. Also when generating a new PAT, select the least scopes necessary. [Learn more about creating and using encrypted secrets](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
+
+          github_token: # optional, default is ${{ github.token }}
+          # Define glob patterns to filter the files to be checked. Use a new line between patterns to define multiple patterns. The default is to check ALL files that were changed in in the pull_request or push. Note: `ignorePaths` defined in cspell.json still apply.
+
+          files: # optional
+          # Path to `cspell.json`
+
+          config: # optional
+          # The point in the directory tree to start spell checking.
+
+          root: # optional
+          # Notification level to use with inline reporting of spelling errors. Allowed values are: warning, error, none
+
+          inline: # optional, default is warning
+          # Determines if the action should be failed if any spelling issues are found. Allowed values are: true, false
+
+          strict: # optional, default is true
