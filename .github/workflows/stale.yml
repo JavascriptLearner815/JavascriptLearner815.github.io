@@ -1,0 +1,22 @@
+name: Mark stale issues and pull requests
+
+on:
+  schedule:
+  - cron: '20 11 * * *'
+
+jobs:
+  stale:
+
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+
+    steps:
+    - uses: actions/stale@v3
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        stale-issue-message: 'This issue has not had any activity. After a while, it will be deleted—thus I have added the no-issue-activity label to this issue. Have a good day! :smile:'
+        stale-pr-message: 'This pull request has not had any activity. After a while, it will be deleted—thus I have added the no-pr-activity label to this pull request. Have a good day! :smile:'
+        stale-issue-label: 'no-issue-activity'
+        stale-pr-label: 'no-pr-activity'
