@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<script>console.time("load")</script>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Dean Alan Summer">
+    <meta name="description" content="Dean - Landing Page | The official portfolio of Dean Alan Summer, The World's Largest Nerd. | Get the best content, straight from the landing page!">
+    <script>console.time("css")</script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <script>console.timeEnd("css")</script>
+    <title>Dean - Landing Page</title>
+  </head>
+  <script>console.timeEnd("html")</script>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h1 class="page-title brand-title" hidden>Dean - Landing Page</h1>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li hidden><a href="https://javascriptlearner815.github.io/portfolio/">Landing Page</a></li>
+            <li hidden><a href="https://javascriptlearner815.github.io/">Blog</a></li>
+            <li hidden><a href="https://javascriptlearner815.github.io/portfolio/about">About</a></li>
+            <li hidden><a href="https://javascriptlearner815.github.io/portfolio/contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="site-description" hidden>The official portfolio of Dean Alan Summer, The World's Largest Nerd.</div>
+      <div class="page-description" hidden>Get the best content, straight from the landing page!</div>
+    </header>
+    <main>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </main>
+    <footer>
+      <!-- Side Links Only -->
+      <div class="side-links">
+        <a href="https://youtube.com/channel/UC6spikDcAKWABZqw7nSLNKw" target="_blank" class="side-link side-link-youtube">
+          <i class="fab fa-youtube-square side-link-icon"></i>
+          <span class="side-link-text">View YouTube</span>
+        </a>
+        <a href="https://github.com/JavascriptLearner815" target="_blank" class="side-link side-link-github side-link-icon">
+          <i class="fab fa-github-square"></i>
+          <span class="side-link-text">View GitHub</span>
+        </a>
+        <a href="https://twitter.com/DeanSummer3" target="_blank" class="side-link side-link-twitter">
+          <i class="fab fa-twitter-square side-link-icon"></i>
+          <span class="side-link-text">View Twitter</span>
+        </a>
+      </div>
+    </footer>
+    <script>console.timeEnd("html")</script>
+    
+    
+    <script>console.time("jquery")</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- :O, 360, MY FAVORITE NUMBER!!!!! (AND IT'S THE LATEST VERSION!) -->
+    <script>
+      {
+        const toggleButton = $(".toggle-button")[0]
+        const navbarLinks = $(".navbar-links")[0]
+        
+        toggleButton.addEventListener("click", () => {
+          navbarLinks.classList.toggle("active")
+        })
+        $(".page-title, li").slideDown(1000, () => {
+          $(".site-description, .page-description").fadeIn(850)
+        })
+      }
+    </script>
+    <script>console.timeEnd("jquery")</script>
+  </body>
+</html>
+<script>console.timeEnd("load")</script>
