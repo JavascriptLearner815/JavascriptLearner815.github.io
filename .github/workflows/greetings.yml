@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Hello @${{ github.actor }}, welcome to JavascriptLearner815.github.io! Thank you for helping us make this blog great. Keep it up and great things have ought to happen! I think you are ready to move on now.'
+        pr-message: 'Hello @${{ github.actor }}, welcome to JavascriptLearner815.github.io! Thank you for helping us make this blog great. Keep it up and great things have ought to happen! I think you are ready to move on now.'
