@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-.site-description, .page-description {
+.page-title, .site-description, .page-description {
   text-align: center;
 }
 
