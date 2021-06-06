@@ -15,7 +15,7 @@
   </head>
   <script>console.timeEnd("html")</script>
   <body>
-    <header>
+    <header hidden>
       <nav class="navbar">
         <img src="https://javascriptlearner815.github.io/favicon.ico" alt="logo" class="logo" height="30" width="30" hidden> <h1 class="page-title brand-title" hidden>Dean - Landing Page</h1>
         <a href="#" class="toggle-button">
@@ -68,7 +68,7 @@
         toggleButton.addEventListener("click", () => {
           navbarLinks.classList.toggle("active")
         })
-        $(".logo").fadeIn(undefined, () => {
+        $("header, .logo").fadeIn(undefined, () => {
           $(".page-title, li").slideDown(1000, () => {
             $(".site-description, .page-description").fadeIn(850, () => {
               $("main, footer").fadeIn(1150)
