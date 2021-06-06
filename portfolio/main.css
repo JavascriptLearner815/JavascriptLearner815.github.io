@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+.site-description, .page-description {
+  text-align: center;
+}
+
 @font-face {
 	font-family: "Gotham Rounded";
 	src: url("https://javascriptlearner815.github.io/GothamRounded-Bold.woff2") format("woff2"),
