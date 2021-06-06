@@ -1,0 +1,4 @@
+unverified:
+- './*'
+wontfix:
+- any: ['./favicon.ico', './GothamRounded-**.*', './LICENSE', './README.md', './Screen*.webm', './Speedo.png', './_config.yml', './index.md', './404.md', '.github/*', '_includes/*']
