@@ -1,5 +1,9 @@
 import Select from "./select"
 
-const select = new Select(selectElement)
+const selectElements = document.querySelectorAll("[data-custom]")
 
-select.setValue("AMS")
+selectElements.forEach(selectElement => {
+  new Select(selectElement)
+})
+
+const select = new Select(selectElement)
