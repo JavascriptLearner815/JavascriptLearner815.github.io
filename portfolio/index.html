@@ -82,10 +82,14 @@
     <script>console.timeEnd("html")</script>
     
     
+    <script>console.time("js")</script>
+    <script src="https://javascriptlearner815.github.io/portfolio/script.js" type="module"></script>
+    <script>console.timeEnd("js")</script>
     <script>console.time("jquery")</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- :O, 360, MY FAVORITE NUMBER!!!!! (AND IT'S THE LATEST VERSION!) -->
     <script>
       {
+      $( document ).ready(() => {
         const toggleButton = $(".toggle-button")[0]
         const navbarLinks = $(".navbar-links")[0]
         
@@ -99,12 +103,10 @@
             })
           })
         })
+      })
       }
     </script>
-    <script>console.timeEnd("jquery")
-    console.time("js")</script>
-    <script src="https://javascriptlearner815.github.io/portfolio/script.js" type="module"></script>
-    <script>console.timeEnd("js")</script>
+    <script>console.timeEnd("jquery")</script>
   </body>
 </html>
 <script>console.timeEnd("load")</script>
