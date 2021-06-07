@@ -107,7 +107,9 @@ function setupCustomElement(select) {
         debounceTimeout = setTimeout(() => searchTerm = "", 500)
         
         const searchedOption = select.options.find(option => option.label.toLowerCase().startsWith(searchTerm))
-        if (searchedOption) select.selectValue(searchedOption.value)
+        if (searchedOption) {
+          select.selectValue(searchedOption.value)
+        }
       }
     }
   })
