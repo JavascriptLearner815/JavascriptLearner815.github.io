@@ -1,4 +1,4 @@
-import Select from "./select"
+import Select from "./select.js"
 
 const selectElements = document.querySelectorAll("[data-custom]")
 
