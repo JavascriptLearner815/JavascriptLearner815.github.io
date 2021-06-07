@@ -65,5 +65,5 @@
 }
 
 .__custom-select-option.selected:hover {
-  background-color: hsl(200, 100%, 90%);
+  background-color: hsl(200, 100%, 30%);
 }
