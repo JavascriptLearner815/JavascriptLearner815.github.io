@@ -16,6 +16,7 @@ export default class Select {
 
 function setupCustomElement(select) {
   select.customElement.classList.add("__custom-select-container")
+  select.customElement.tabIndex = 0
   
   select.labelElement.classList.add("__custom-select-value")
   select.labelElement.innerText = select.selectedOption.label
