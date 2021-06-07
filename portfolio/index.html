@@ -90,19 +90,25 @@
     <script>
       {
       $( document ).ready(() => {
+        console.time("jquery_after_load")
         const toggleButton = $(".toggle-button")[0]
         const navbarLinks = $(".navbar-links")[0]
         
         toggleButton.addEventListener("click", () => {
           navbarLinks.classList.toggle("active")
         })
+        
+        console.time("jquery_after_load_animations")
         $("header, .logo").fadeIn(undefined, () => {
           $(".page-title, li").slideDown(1000, () => {
             $(".site-description, .page-description").fadeIn(850, () => {
-              $("main, footer").fadeIn(1150)
+              $("main, footer").fadeIn(1150, () => {
+                console.timeEnd("jquery_after_load_animations")
+              })
             })
           })
         })
+        console.timeEnd("jquery_after_load")
       })
       }
     </script>
