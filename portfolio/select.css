@@ -31,6 +31,8 @@
   display: inline-block;
   border: 4px solid transparent;
   border-top-color: black;
+  margin-left: 12px;
+  margin-top: 4px;
 }
 
 .__custom-select-options {
