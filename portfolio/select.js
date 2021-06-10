@@ -11,36 +11,48 @@ export default class Select {
   }
   
   get selectedOption() {
-    return this.options.find(option => option.selected)
+    return getSelectedOption(this)
   }
   
   get selectedOptionIndex() {
-    return this.options.indexOf(this.selectedOption)
+    return getSelectedOptionIndex(this)
   }
   
   selectValue(value) {
-    const newSelectedOption = this.options.find(option => option.value === value)
-    const prevSelectedOption = this.selectedOption
+    return selectValue(this, value)
+  }
+}
+
+function getSelectedOption(obj) {
+  return obj.options.find(option => option.selected)
+}
+
+function getSelectedOptionIndex(obj) {
+  return obj.options.indexOf(obj.selectedOption)
+}
+
+function selectValue(obj, value) {
+    const newSelectedOption = obj.options.find(option => option.value === value)
+    const prevSelectedOption = obj.selectedOption
     prevSelectedOption.selected = false
     prevSelectedOption.element.selected = false
     
     newSelectedOption.selected = true
     newSelectedOption.element.selected = true
     
-    this.labelElement.innerText = newSelectedOption.label
-    this.optionsCustomElement
+    obj.labelElement.innerText = newSelectedOption.label
+    obj.optionsCustomElement
       .querySelector(
         `[data-value="${prevSelectedOption.value}"`
       )
         .classList.remove("selected")
-    const newCustomElement = this.optionsCustomElement
+    const newCustomElement = obj.optionsCustomElement
       .querySelector(
         `[data-value="${newSelectedOption.value}"`
       )
         .classList.add("selected")
     newCustomElement.classList.add("selected")
     newCustomElement.scrollIntoView({ block: "nearest" })
-  }
 }
 
 function setupCustomElement(select) {
