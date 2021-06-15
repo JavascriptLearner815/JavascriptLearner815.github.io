@@ -42,15 +42,11 @@ function selectValue(obj, value) {
     
     obj.labelElement.innerText = newSelectedOption.label
     obj.optionsCustomElement
-      .querySelector(
-        `[data-value="${prevSelectedOption.value}"`
-      )
-        .classList.remove("selected")
+      .querySelector(`[data-value="${prevSelectedOption.value}"`)
+      .classList.remove("selected")
     const newCustomElement = obj.optionsCustomElement
-      .querySelector(
-        `[data-value="${newSelectedOption.value}"`
-      )
-        .classList.add("selected")
+      .querySelector(`[data-value="${newSelectedOption.value}"`)
+      .classList.add("selected")
     newCustomElement.classList.add("selected")
     newCustomElement.scrollIntoView({ block: "nearest" })
 }
