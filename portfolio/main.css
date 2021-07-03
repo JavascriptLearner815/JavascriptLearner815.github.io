@@ -18,7 +18,6 @@ body {
   font-size: clamp(1rem, 3vw + 1rem, 4rem);
   position: relative;
   font-family: "Source Code Pro", monospace;
-  position: relative;
   width: max-content;
   display: grid;
   place-content: center;
