@@ -35,6 +35,9 @@ body {
 }
 
 .typewriter::before {
+  display: grid;
+  place-content: center;
+  text-align: center;
   background: var(--bg-color);
   animation: typewriter var(--typewriterSpeed)
     steps(var(--typewriterCharacters)) var(--typewriterDelay) forwards;
