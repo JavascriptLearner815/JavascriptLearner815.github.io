@@ -1,10 +1,10 @@
 :root {
   --bg-color: hsl(49 37% 94%);
-  --typewriterSpeed: 1s;
+  --typewriterSpeed: 1.35s;
   --typewriterCharacters: 23;
   --typewriterBlink: 750ms;
   --typewriterDelay: 350ms;
-  --subtitleDelay: 750ms;
+  --subtitleDelay: 1.75s;
   --subtitleSpeed: 1.75s;
 }
 
