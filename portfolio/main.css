@@ -11,9 +11,6 @@
 body {
   margin: 0;
   min-height: 100vh;
-  display: grid;
-  place-content: center;
-  text-align: center;
   background: var(--bg-color);
 }
 
@@ -23,6 +20,9 @@ body {
   font-family: "Source Code Pro", monospace;
   position: relative;
   width: max-content;
+  display: grid;
+  place-content: center;
+  text-align: center;
 }
 
 .typewriter::before,
@@ -57,6 +57,9 @@ body {
   opacity: 0;
   transform: translateY(3rem);
   animation: fadeInUp var(--subtitleSpeed) ease calc(var(--typewriterSpeed) + var(--typewriterDelay) + var(--subtitleDelay)) forwards;
+  display: grid;
+  place-content: center;
+  text-align: center;
 }
 
 @keyframes typewriter {
