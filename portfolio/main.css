@@ -1,3 +1,83 @@
+:root {
+  --bg-color: hsl(49 37% 94%);
+  --typewriterSpeed: 2.5s;
+  --typewriterCharacters: 23;
+  --typewriterBlink: 750ms;
+  --typewriterDelay: 1s;
+  --subtitleDelay: 1s;
+  --subtitleSpeed: 2s;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  background: var(--bg-color);
+}
+
+.typewriter {
+  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  position: relative;
+  font-family: "Source Code Pro", monospace;
+  position: relative;
+  width: max-content;
+}
+
+.typewriter::before,
+.typewriter::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.typewriter::before {
+  background: var(--bg-color);
+  animation: typewriter var(--typewriterSpeed)
+    steps(var(--typewriterCharacters)) var(--typewriterDelay) forwards;
+}
+
+.typewriter::after {
+  width: 0.125em;
+  background: black;
+  animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) var(--typewriterDelay) forwards,
+    blink var(--typewriterBlink) steps(var(--typewriterCharacters)) infinite;
+}
+
+.subtitle {
+  color: hsl(0 0% 0% / 0.7);
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp var(--subtitleSpeed) ease calc(var(--typewriterSpeed) + var(--typewriterDelay) + var(--subtitleDelay)) forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     text-align: center;
