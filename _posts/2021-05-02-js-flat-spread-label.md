@@ -219,7 +219,7 @@ In my last example, I used the spread operator (`...`).
 
 **What the heck does that mean?!?**
 
-To understand this, there is a side effect you learning array destructuring, another part of ES6 just like `...`.
+To understand this, there is a side effect of you learning array destructuring, another part of ES6 just like `...`.
 
 OK? OK.
 
