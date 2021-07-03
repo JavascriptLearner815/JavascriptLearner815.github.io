@@ -18,6 +18,7 @@ body {
   display: grid;
   place-content: center;
   text-align: center;
+  left: 50vw;
   font-size: clamp(1rem, 3vw + 1rem, 4rem);
   position: relative;
   font-family: "Source Code Pro", monospace;
@@ -35,9 +36,6 @@ body {
 }
 
 .typewriter::before {
-  display: grid;
-  place-content: center;
-  text-align: center;
   background: var(--bg-color);
   animation: typewriter var(--typewriterSpeed)
     steps(var(--typewriterCharacters)) var(--typewriterDelay) forwards;
