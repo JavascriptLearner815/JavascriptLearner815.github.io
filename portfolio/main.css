@@ -18,7 +18,7 @@ body {
   display: grid;
   place-content: center;
   text-align: center;
-  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  font-size: clamp(1rem, 3vw + 1rem, 4rem); /* TODO: Mediaquery to have effect not play and text wrap instead if text cannot fit with the nowrap */
   position: relative;
   font-family: "Source Code Pro", monospace;
   width: max-content;
