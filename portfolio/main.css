@@ -1,6 +1,6 @@
 :root {
   --bg-color: hsl(49 37% 94%);
-  --typewriterSpeed: 2s;
+  --typewriterSpeed: 500ms;
   --typewriterCharacters: 23;
   --typewriterBlink: 750ms;
   --typewriterDelay: 1.5s;
