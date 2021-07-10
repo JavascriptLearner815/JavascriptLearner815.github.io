@@ -50,6 +50,7 @@ body {
 }
 
 .typewriter::after {
+  line-height: 1.15;
   width: 0.125em;
   background: black;
   animation: typewriter var(--typewriterSpeed)
