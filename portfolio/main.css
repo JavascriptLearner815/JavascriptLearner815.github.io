@@ -16,7 +16,7 @@ body {
 }
 
 .normal-text {
-  color: #737373;
+  color: #666; /* The devil is websafe!!! */
 }
 
 .typewriter {
