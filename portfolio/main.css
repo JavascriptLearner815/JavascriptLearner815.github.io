@@ -58,7 +58,7 @@ body {
 }
 
 .subtitle {
-  line-height: .8;
+  line-height: 1.05;
   max-width: 50ch;
   display: grid;
   place-content: center;
@@ -70,6 +70,18 @@ body {
   opacity: 0;
   transform: translateY(3rem);
   animation: fadeInUp var(--subtitleSpeed) ease calc(var(--typewriterSpeed) + var(--typewriterDelay) + var(--subtitleDelay)) forwards;
+}
+
+h1 {
+  line-height: .9;
+}
+
+h2 {
+  line-height: 1.175;
+}
+
+h3, h4, h5, h6 {
+  line-height: 1.45;
 }
 
 p {
