@@ -59,7 +59,7 @@ body {
 
 .subtitle {
   line-height: .8;
-  max-width: 35vw;
+  max-width: 50ch;
   display: grid;
   place-content: center;
   text-align: center;
@@ -73,7 +73,7 @@ body {
 }
 
 p {
-  max-width: 35vw;
+  max-width: 50ch;
 }
 
 @keyframes typewriter {
