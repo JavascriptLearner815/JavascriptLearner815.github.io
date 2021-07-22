@@ -52,14 +52,14 @@ function doMegaImg() {
 }
   
 function whenIsFalseDo(cond, func) {
-  while (!!cond) {
+  while (Boolean(cond)) {
     ;
   }
   return func()
 }
 
 function whenIsTrueDo(cond, func) {
-  while (!(!!cond)) {
+  while (!Boolean(cond)) {
     ;
   }
   return func()
