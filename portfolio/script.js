@@ -1,5 +1,10 @@
 import Select from "./select.js"
 
+
+const isMobile = window.screen.width <= 480
+
+
+
 const selectElements = document.querySelectorAll("select[data-custom]")
 
 selectElements.forEach(selectElement => new Select(selectElement))
@@ -61,8 +66,11 @@ function whenIsTrueDo(cond, func) {
 }
 
 
-function detectMobileAndUpdateFlight() {
-  if (window.screen.width <= 480) {
+
+
+
+function updateFlight() {
+  if (isMobile) {
     return document.getElementById("mobile-flight").style.display = "revert"
   }
   document.getElementById("desktop-flight").style.display = "revert"
@@ -72,6 +80,11 @@ function detectMobileAndUpdateFlight() {
 
 
 
+
+
+
+
 // ------
 
+updateFlight()
 doSpeedoImg()
