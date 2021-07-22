@@ -69,15 +69,6 @@ function whenIsTrueDo(cond, func) {
 
 
 
-function updateFlight() {
-  if (isMobile) {
-    return document.getElementById("mobile-flight").style.display = "revert"
-  }
-  document.getElementById("desktop-flight").style.display = "revert"
-}
-
-
-
 
 
 
@@ -86,5 +77,6 @@ function updateFlight() {
 
 // ------
 
-updateFlight()
+
+
 doSpeedoImg()
