@@ -60,4 +60,18 @@ function whenIsTrueDo(cond, func) {
   return func()
 }
 
+
+function detectMobileAndUpdateFlight() {
+  if (window.screen.width <= 480) {
+    return document.getElementById("mobile-flight").style.display = "revert"
+  }
+  document.getElementById("desktop-flight").style.display = "revert"
+}
+
+
+
+
+
+// ------
+
 doSpeedoImg()
